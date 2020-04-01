@@ -1,0 +1,8 @@
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/initial-task/InitialTask/InitialTask/bin/Debug/netcoreapp3.1/InitialTask.deps.json
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/initial-task/InitialTask/InitialTask/bin/Debug/netcoreapp3.1/InitialTask.dll
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/initial-task/InitialTask/InitialTask/bin/Debug/netcoreapp3.1/InitialTask.pdb
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/initial-task/InitialTask/InitialTask/obj/Debug/netcoreapp3.1/InitialTask.csprojAssemblyReference.cache
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/initial-task/InitialTask/InitialTask/obj/Debug/netcoreapp3.1/InitialTask.AssemblyInfoInputs.cache
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/initial-task/InitialTask/InitialTask/obj/Debug/netcoreapp3.1/InitialTask.AssemblyInfo.cs
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/initial-task/InitialTask/InitialTask/obj/Debug/netcoreapp3.1/InitialTask.dll
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/initial-task/InitialTask/InitialTask/obj/Debug/netcoreapp3.1/InitialTask.pdb

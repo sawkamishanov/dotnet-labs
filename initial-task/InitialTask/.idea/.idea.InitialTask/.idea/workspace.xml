@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14de0c92-de1c-43fa-9e45-be33f28cde53" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/InitialTask/LinkedList/CustomList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InitialTask/LinkedList/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InitialTask/InsertionSort/InsertionSort.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InitialTask/BinaryTree/BinaryTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InitialTaskTest/LinkedListTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InitialTaskTest/BinaryTreeTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InitialTaskTest/InsertionSortTest.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/InitialTask/Class1.cs" />
+        <option value="$PROJECT_DIR$/InitialTask/LinkedList.cs" />
+        <option value="$PROJECT_DIR$/InitialTask/LinkedList/LinkedList.cs" />
+        <option value="$PROJECT_DIR$/InitialTask/LinkedList/Node.cs" />
+        <option value="$PROJECT_DIR$/InitialTask/LinkedList/CustomList.cs" />
+        <option value="$PROJECT_DIR$/InitialTaskTest/LinkedListTest.cs" />
+        <option value="$PROJECT_DIR$/InitialTask/InsertionSort/InsertionSort.cs" />
+        <option value="$PROJECT_DIR$/InitialTaskTest/InsertionSortTest.cs" />
+        <option value="$PROJECT_DIR$/InitialTask/BinaryTree/BinaryTree.cs" />
+        <option value="$PROJECT_DIR$/InitialTaskTest/BinaryTreeTest.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZuHOyiH0odEx8QZSVnNWgT8cz5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14de0c92-de1c-43fa-9e45-be33f28cde53" name="Default Changelist" comment="" />
+      <created>1585682030215</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585682030215</updated>
+      <workItem from="1585682032225" duration="6253000" />
+      <workItem from="1585741812592" duration="5990000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="396" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1585699094412">
+      <screen x="0" y="0" width="1600" height="862" />
+    </state>
+    <state x="396" y="164" key="Rider.ProjectTemplateDialog.Size/0.0.1600.862@0.0.1600.862" timestamp="1585699094412" />
+    <state x="619" y="121" key="RiderGenerateDialog" timestamp="1585746181876">
+      <screen x="0" y="0" width="1600" height="862" />
+    </state>
+    <state x="619" y="121" key="RiderGenerateDialog/0.0.1600.862@0.0.1600.862" timestamp="1585746181876" />
+  </component>
+</project>
