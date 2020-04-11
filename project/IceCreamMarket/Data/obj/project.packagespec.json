@@ -14,7 +14,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj": {
+            "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -26,6 +30,10 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[9.0.0, )"
+        },
         "Microsoft.EntityFrameworkCore": {
           "target": "Package",
           "version": "[3.1.3, )"
