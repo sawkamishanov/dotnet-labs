@@ -4,7 +4,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Data.DataSources    
 {
-    [Table("clients")]
     public partial class ClientDataSource
     {
         [Key]

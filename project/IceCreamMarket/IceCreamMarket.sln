@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLLTests", "BLLTests\BLLTests.csproj", "{B3897F7A-A910-4E4D-80BC-F0AB5AC3FC17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{89642DBE-6C2C-48ED-832D-4E3477E41FE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{B3897F7A-A910-4E4D-80BC-F0AB5AC3FC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3897F7A-A910-4E4D-80BC-F0AB5AC3FC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3897F7A-A910-4E4D-80BC-F0AB5AC3FC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89642DBE-6C2C-48ED-832D-4E3477E41FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89642DBE-6C2C-48ED-832D-4E3477E41FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89642DBE-6C2C-48ED-832D-4E3477E41FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89642DBE-6C2C-48ED-832D-4E3477E41FE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

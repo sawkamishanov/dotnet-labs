@@ -1,0 +1,9 @@
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.deps.json
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.dll
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/WebAPI/bin/Debug/netcoreapp3.1/WebAPI.pdb
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.CoreCompileInputs.cache
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfoInputs.cache
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfo.cs
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb

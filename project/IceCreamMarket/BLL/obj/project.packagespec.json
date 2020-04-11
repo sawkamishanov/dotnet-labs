@@ -14,7 +14,14 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj": {
+            "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj"
+          },
+          "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj": {
+            "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

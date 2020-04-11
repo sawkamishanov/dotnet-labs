@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_IceCreamMarket.-1127865466.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.4.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.api.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="BLL" t="IncludeRecursive">
+        <e p="BLL.csproj" t="IncludeRecursive" />
+        <e p="MapperInit.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="ClientService" t="Include">
+            <e p="Repositories" t="Include">
+              <e p="ICreateClientService.cs" t="Include" />
+              <e p="IGetClientService.cs" t="Include" />
+            </e>
+          </e>
+          <e p="OrderService" t="Include">
+            <e p="Implementations" t="Include">
+              <e p="DiscountService.cs" t="Include" />
+              <e p="GetOrderService.cs" t="Include" />
+              <e p="OrderService.cs" t="Include" />
+            </e>
+            <e p="Repositories" t="Include">
+              <e p="IDiscountService.cs" t="Include" />
+              <e p="IGetOrderService.cs" t="Include" />
+              <e p="IOrderService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BLL.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="BLLTests" t="IncludeRecursive">
+        <e p="BLLTests.csproj" t="IncludeRecursive" />
+        <e p="DiscountServiceTest.cs" t="Include" />
+        <e p="GetOrderServiceTest.cs" t="Include" />
+        <e p="OrderServiceTest.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BLLTests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Data" t="IncludeRecursive">
+        <e p="Context" t="Include">
+          <e p="Configuration" t="Include">
+            <e p="ClientConfiguration.cs" t="Include" />
+            <e p="OrderConfiguration.cs" t="Include" />
+          </e>
+          <e p="DatabaseContext.cs" t="Include" />
+        </e>
+        <e p="Data.csproj" t="IncludeRecursive" />
+        <e p="DataSources" t="Include">
+          <e p="ClientDataSource.cs" t="Include" />
+          <e p="CompositionDataSource.cs" t="Include" />
+          <e p="IceCreamDataSourcecs.cs" t="Include" />
+          <e p="OrderDataSource.cs" t="Include" />
+        </e>
+        <e p="Implementations" t="Include">
+          <e p="ClientDataAccess.cs" t="Include" />
+          <e p="OrderDataAccess.cs" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IRepository.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Domain" t="IncludeRecursive">
+        <e p="Domain.csproj" t="IncludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="Client.cs" t="Include" />
+          <e p="Composition.cs" t="Include" />
+          <e p="Entity.cs" t="Include" />
+          <e p="IceCream.cs" t="Include" />
+          <e p="Order.cs" t="Include" />
+        </e>
+        <e p="IEntityIdentity.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="IceCreamMarket.sln" t="IncludeFlat" />
+      <e p="WebAPI" t="IncludeRecursive">
+        <e p="WebAPI.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="WebAPI.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

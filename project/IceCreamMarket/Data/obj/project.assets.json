@@ -1639,7 +1639,7 @@
       "outputPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/aamishanov/.config/NuGet/NuGet.Config"
+        "/home/aamishanov/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

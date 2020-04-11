@@ -1,0 +1,14 @@
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/bin/Debug/netcoreapp3.1/BLL.deps.json
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/bin/Debug/netcoreapp3.1/BLL.dll
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/bin/Debug/netcoreapp3.1/BLL.pdb
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/bin/Debug/netcoreapp3.1/Data.dll
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/bin/Debug/netcoreapp3.1/Domain.dll
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/bin/Debug/netcoreapp3.1/Data.pdb
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/obj/Debug/netcoreapp3.1/BLL.csprojAssemblyReference.cache
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/obj/Debug/netcoreapp3.1/BLL.csproj.CoreCompileInputs.cache
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/obj/Debug/netcoreapp3.1/BLL.AssemblyInfoInputs.cache
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/obj/Debug/netcoreapp3.1/BLL.AssemblyInfo.cs
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/obj/Debug/netcoreapp3.1/BLL.csproj.CopyComplete
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/obj/Debug/netcoreapp3.1/BLL.dll
+/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/obj/Debug/netcoreapp3.1/BLL.pdb

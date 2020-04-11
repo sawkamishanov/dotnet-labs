@@ -14,7 +14,17 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/BLL.csproj": {
+            "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/BLL.csproj"
+          },
+          "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj": {
+            "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj"
+          },
+          "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj": {
+            "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -26,9 +36,21 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "AutoFixture": {
+          "target": "Package",
+          "version": "[4.11.0, )"
+        },
+        "FluentAssertions": {
+          "target": "Package",
+          "version": "[5.10.3, )"
+        },
         "Microsoft.NET.Test.Sdk": {
           "target": "Package",
           "version": "[16.4.0, )"
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.13.1, )"
         },
         "NUnit3TestAdapter": {
           "target": "Package",
