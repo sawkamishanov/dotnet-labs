@@ -11,8 +11,9 @@ namespace Data.Context
         public DbSet<IceCreamDataSource> IceCreams { get; set; }
         public DbSet<OrderDataSource> Orders { get; set; }
         public DbSet<CompositionDataSource> Compositions { get; set; }
-        
-        
+
+        public DatabaseContext(DbContextOptions options) : base(options) {}
+
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseNpgsql("Host=localhost;Port=5432;Database=postgres;Username=postgres;Password=postgres");
 
@@ -20,6 +21,7 @@ namespace Data.Context
         {
             modelBuilder.ApplyConfiguration(new ClientConfiguration());
             modelBuilder.ApplyConfiguration(new OrderConfiguration());
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

@@ -1,0 +1,15 @@
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\bin\Release\netcoreapp3.1\Data.deps.json
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\bin\Release\netcoreapp3.1\Data.runtimeconfig.json
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\bin\Release\netcoreapp3.1\Data.runtimeconfig.dev.json
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\bin\Release\netcoreapp3.1\Data.dll
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\bin\Release\netcoreapp3.1\Data.pdb
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\bin\Release\netcoreapp3.1\Domain.dll
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\bin\Release\netcoreapp3.1\Domain.pdb
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\obj\Release\netcoreapp3.1\Data.csprojAssemblyReference.cache
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\obj\Release\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\obj\Release\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\obj\Release\netcoreapp3.1\Data.AssemblyInfo.cs
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\obj\Release\netcoreapp3.1\Data.csproj.CopyComplete
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\obj\Release\netcoreapp3.1\Data.dll
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\obj\Release\netcoreapp3.1\Data.pdb
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\Data\obj\Release\netcoreapp3.1\Data.genruntimeconfig.cache

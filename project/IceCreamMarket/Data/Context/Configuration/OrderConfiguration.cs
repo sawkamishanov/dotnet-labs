@@ -8,7 +8,7 @@ namespace Data.Context.Configuration
     {
         public void Configure(EntityTypeBuilder<OrderDataSource> builder)
         {
-            throw new System.NotImplementedException();
+            builder.HasKey(m => m.Id);
         }
     }
 }
