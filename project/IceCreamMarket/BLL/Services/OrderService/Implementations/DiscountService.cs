@@ -10,11 +10,11 @@ namespace BLL.Services.OrderService.Implementations
 {
     public class DiscountService: IDiscountService
     {
-        private const int SMALL_DISCOUNT = 5;
-        private const int AV_DISCOUNT = 10;
-        private const int BIG_DISCOUNT = 15;
+        private const int SMALL_DISCOUNT = 3; // 10
+        private const int AV_DISCOUNT = 6; // 15
+        private const int BIG_DISCOUNT = 9; // 30
 
-        public decimal GetDiscount(Order order)
+        public void GetDiscount(Order order)
         {
             var numberOfOrders = order.Orders.Count();
 
@@ -23,7 +23,18 @@ namespace BLL.Services.OrderService.Implementations
                 throw new ArgumentOutOfRangeException();
             }
 
-            return 0;
+            if (numberOfOrders >= SMALL_DISCOUNT && numberOfOrders < AV_DISCOUNT)
+            {
+                order.Price *= 0.1m;
+            }
+            else if (numberOfOrders >= AV_DISCOUNT && numberOfOrders < BIG_DISCOUNT)
+            {
+                order.Price *= 0.15m;
+            }
+            else
+            {
+                order.Price *= 0.30m;
+            }
         }
     }
 }

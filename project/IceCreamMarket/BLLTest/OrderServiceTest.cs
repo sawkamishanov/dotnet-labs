@@ -11,7 +11,7 @@ using NUnit.Framework;
 namespace BLLTests
 {
     [TestFixture]
-    public class GetOrderServiceTest
+    public class OrderServiceTest
     {
         [Test]
         public async Task GetSuccess()
@@ -25,7 +25,7 @@ namespace BLLTests
                 .Setup(repository => repository.Get(orderIdentityMock.Object))
                 .ReturnsAsync(order);
             
-            var getOrderService = new GetOrderService(orderDataAccessMock.Object);
+            var getOrderService = new OrderService(orderDataAccessMock.Object);
             
             // Act
             var action = await getOrderService.GetOrder(orderIdentityMock.Object);
@@ -39,10 +39,20 @@ namespace BLLTests
         public async Task GetFailure()
         {
             // Arrange
-            
+            var orderIdentityMock = new Mock<IEntityIdentity>();
+            var orderDataAccessMock = new Mock<IRepository<Order>>();
+
+            orderDataAccessMock
+                .Setup(repository => repository.Get(orderIdentityMock.Object))
+                .ReturnsAsync((Order) null);
+
+            var getOrderService = new OrderService(orderDataAccessMock.Object);
             
             // Act
+            var action = new Func<Task>(() => getOrderService.GetOrder(orderIdentityMock.Object));
+
             // Assert
+            await action.Should().ThrowAsync<InvalidOperationException>("Not found by id");
         }
     }
 }

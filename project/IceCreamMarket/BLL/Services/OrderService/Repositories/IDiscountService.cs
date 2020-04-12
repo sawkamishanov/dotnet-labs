@@ -5,6 +5,6 @@ namespace BLL.Services.OrderService.Repositories
 {
     public interface IDiscountService
     {
-        decimal GetDiscount(Order order);
+        void GetDiscount(Order order);
     }
 }

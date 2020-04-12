@@ -1,77 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLLTests/BLLTests.csproj": {}
+    "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLLTests\\BLLTests.csproj": {}
   },
   "projects": {
-    "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/BLL.csproj": {
+    "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLLTests\\BLLTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/BLL.csproj",
-        "projectName": "BLL",
-        "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/BLL.csproj",
-        "packagesPath": "/home/aamishanov/.nuget/packages/",
-        "outputPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/aamishanov/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj": {
-                "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj"
-              },
-              "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj": {
-                "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLLTests/BLLTests.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLLTests/BLLTests.csproj",
+        "projectUniqueName": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLLTests\\BLLTests.csproj",
         "projectName": "BLLTests",
-        "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLLTests/BLLTests.csproj",
-        "packagesPath": "/home/aamishanov/.nuget/packages/",
-        "outputPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLLTests/obj/",
+        "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLLTests\\BLLTests.csproj",
+        "packagesPath": "C:\\Users\\Mishanov\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLLTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/aamishanov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mishanov\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -82,14 +25,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/BLL.csproj": {
-                "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/BLL/BLL.csproj"
+              "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLL\\BLL.csproj"
               },
-              "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj": {
-                "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj"
+              "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\Data.csproj": {
+                "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\Data.csproj"
               },
-              "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj": {
-                "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj"
+              "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj"
               }
             }
           }
@@ -107,13 +50,17 @@
               "target": "Package",
               "version": "[4.11.0, )"
             },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[5.10.3, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.4.0, )"
+              "version": "[16.6.0-preview-20200318-01, )"
             },
             "Moq": {
               "target": "Package",
@@ -121,7 +68,7 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.15.1, )"
+              "version": "[3.16.1, )"
             },
             "nunit": {
               "target": "Package",
@@ -143,21 +90,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj": {
+    "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj",
-        "projectName": "Data",
-        "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/Data.csproj",
-        "packagesPath": "/home/aamishanov/.nuget/packages/",
-        "outputPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Data/obj/",
+        "projectUniqueName": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Mishanov\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/aamishanov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mishanov\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -168,8 +115,71 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj": {
-                "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj"
+              "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\Data.csproj": {
+                "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\Data.csproj"
+              },
+              "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Mishanov\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mishanov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj"
               }
             }
           }
@@ -189,19 +199,27 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[5.0.0-preview.2.20159.4, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[5.0.0-preview.2.20159.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-preview.2.20159.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[5.0.0-preview.2.20159.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[3.1.3, )"
+              "version": "[5.0.0-preview2, )"
             }
           },
           "imports": [
@@ -219,21 +237,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj": {
+    "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj",
-        "packagesPath": "/home/aamishanov/.nuget/packages/",
-        "outputPath": "/home/aamishanov/Projects/RiderProjects/dotnet-labs/dotnet-labs/project/IceCreamMarket/Domain/obj/",
+        "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Mishanov\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/aamishanov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mishanov\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -254,6 +272,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -269,7 +293,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,17 +1,22 @@
 using AutoMapper;
 using Data.DataSources;
 using Domain.Entities;
+using WebAPI.DTO;
 
-namespace BLL
+namespace WebAPI
 {
-    public class MapperInit: Profile
+    public class MapperProfile: Profile
     {
-        public MapperInit()
+        public MapperProfile()
         {
             CreateMap<Client, ClientDataSource>();
             CreateMap<ClientDataSource, Client>();
+            CreateMap<Client, ClientDTO>();
+            CreateMap<ClientDTO, Client>();
             CreateMap<Order, OrderDataSource>();
             CreateMap<OrderDataSource, Order>();
+            CreateMap<Order, OrderDTO>();
+            CreateMap<OrderDTO, Order>();
         }
     }
 }

@@ -1,0 +1,14 @@
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\bin\Release\netcoreapp3.1\BLL.deps.json
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\bin\Release\netcoreapp3.1\BLL.dll
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\bin\Release\netcoreapp3.1\BLL.pdb
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\bin\Release\netcoreapp3.1\Data.dll
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\bin\Release\netcoreapp3.1\Domain.dll
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\bin\Release\netcoreapp3.1\Data.pdb
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\bin\Release\netcoreapp3.1\Domain.pdb
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\obj\Release\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\obj\Release\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\obj\Release\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\obj\Release\netcoreapp3.1\BLL.AssemblyInfo.cs
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\obj\Release\netcoreapp3.1\BLL.csproj.CopyComplete
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\obj\Release\netcoreapp3.1\BLL.dll
+D:\Projects\Rider\dotnet-labs\project\IceCreamMarket\BLL\obj\Release\netcoreapp3.1\BLL.pdb

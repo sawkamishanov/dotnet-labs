@@ -5,6 +5,6 @@ namespace BLL.Services.ClientService.Repositories
 {
     public interface ICreateClientService
     {
-        Task<Client> CreateClient();
+        Task CreateClient(Client client);
     }
 }
