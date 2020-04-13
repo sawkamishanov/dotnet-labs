@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using AutoMapper;
 using Data.DataSources;
 using Domain.Entities;
@@ -5,9 +6,9 @@ using WebAPI.DTO;
 
 namespace WebAPI
 {
-    public class MapperProfile: Profile
+    public class MappingProfile: Profile
     {
-        public MapperProfile()
+        public MappingProfile()
         {
             CreateMap<Client, ClientDataSource>();
             CreateMap<ClientDataSource, Client>();
@@ -17,6 +18,16 @@ namespace WebAPI
             CreateMap<OrderDataSource, Order>();
             CreateMap<Order, OrderDTO>();
             CreateMap<OrderDTO, Order>();
+            
+            CreateMap<IceCream, IceCreamDataSource>();
+            CreateMap<IceCreamDataSource, IceCream>();
+            CreateMap<IceCream, IceCreamDTO>();
+            CreateMap<IceCreamDTO, IceCream>();
+            
+            // CreateMap<IEnumerable<IceCream>, IEnumerable<IceCreamDataSource>>();
+            // CreateMap<IEnumerable<IceCreamDataSource>, IEnumerable<IceCream>>();
+            // CreateMap<IEnumerable<IceCream>, IEnumerable<IceCreamDTO>>();
+            // CreateMap<IEnumerable<IceCreamDTO>, IEnumerable<IceCream>>();
         }
     }
 }
