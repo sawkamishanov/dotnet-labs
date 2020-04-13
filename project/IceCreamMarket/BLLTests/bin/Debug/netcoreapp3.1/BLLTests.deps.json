@@ -9,15 +9,16 @@
       "BLLTests/1.0.0": {
         "dependencies": {
           "AutoFixture": "4.11.0",
-          "AutoMapper": "9.0.0",
           "BLL": "1.0.0",
           "Data": "1.0.0",
           "Domain": "1.0.0",
+          "FlUnit.VS.TestAdapter": "0.3.0",
           "FluentAssertions": "5.10.3",
           "Microsoft.NET.Test.Sdk": "16.6.0-preview-20200318-01",
           "Moq": "4.13.1",
+          "NUnit": "3.12.0",
           "NUnit3TestAdapter": "3.16.1",
-          "NUnit": "3.12.0"
+          "NUnitTestAdapter": "2.2.0"
         },
         "runtime": {
           "BLLTests.dll": {}
@@ -86,6 +87,26 @@
           "lib/netcoreapp2.1/FluentAssertions.dll": {
             "assemblyVersion": "5.10.3.0",
             "fileVersion": "5.10.3.0"
+          }
+        }
+      },
+      "FlUnit/0.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/FlUnit.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
+          }
+        }
+      },
+      "FlUnit.VS.TestAdapter/0.3.0": {
+        "dependencies": {
+          "FlUnit": "0.3.0",
+          "Microsoft.TestPlatform.ObjectModel": "16.6.0-preview-20200318-01"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FlUnit.VS.TestAdapter.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
           }
         }
       },
@@ -818,6 +839,7 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "NUnitTestAdapter/2.2.0": {},
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.2",
@@ -1639,6 +1661,20 @@
       "path": "fluentassertions/5.10.3",
       "hashPath": "fluentassertions.5.10.3.nupkg.sha512"
     },
+    "FlUnit/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cogyj5ztTo02lGi3XIFSrTvurARn43nnuOFCgtCqA1J5gEJkFfVbAxR6I910P1BaRHe4uhwO292KM+75ZMQ6/A==",
+      "path": "flunit/0.3.0",
+      "hashPath": "flunit.0.3.0.nupkg.sha512"
+    },
+    "FlUnit.VS.TestAdapter/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xitF92gLgnJe7Qe+M8loSLVrPyHEU/s4yu3fxUvY2JW6SYA4MCBzV5w285KxXgm532DQPnigkfJ1t2Bwolp+ew==",
+      "path": "flunit.vs.testadapter/0.3.0",
+      "hashPath": "flunit.vs.testadapter.0.3.0.nupkg.sha512"
+    },
     "Microsoft.CodeCoverage/16.6.0-preview-20200318-01": {
       "type": "package",
       "serviceable": true,
@@ -1974,6 +2010,13 @@
       "sha512": "sha512-wKuxi7G9Gs2I9gnckwtMVzbPIy7vkNj+FafrmQPaYCUguT+se5kmzI3XwsVCXEalWk9pSYZW7roBkNu4ogn3DA==",
       "path": "nunit3testadapter/3.16.1",
       "hashPath": "nunit3testadapter.3.16.1.nupkg.sha512"
+    },
+    "NUnitTestAdapter/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-03cLhGVG29wQAQ2pmh9CF6vlRofrTs888w2bRB2DYRhRXqr5k8yCk1WSv6oG4h918wMObnzotq4LuzNcgzqieg==",
+      "path": "nunittestadapter/2.2.0",
+      "hashPath": "nunittestadapter.2.2.0.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

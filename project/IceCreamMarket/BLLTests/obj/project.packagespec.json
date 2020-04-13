@@ -40,9 +40,9 @@
           "target": "Package",
           "version": "[4.11.0, )"
         },
-        "AutoMapper": {
+        "FlUnit.VS.TestAdapter": {
           "target": "Package",
-          "version": "[9.0.0, )"
+          "version": "[0.3.0, )"
         },
         "FluentAssertions": {
           "target": "Package",
@@ -56,13 +56,17 @@
           "target": "Package",
           "version": "[4.13.1, )"
         },
+        "NUnit": {
+          "target": "Package",
+          "version": "[3.12.0, )"
+        },
         "NUnit3TestAdapter": {
           "target": "Package",
           "version": "[3.16.1, )"
         },
-        "nunit": {
+        "NUnitTestAdapter": {
           "target": "Package",
-          "version": "[3.12.0, )"
+          "version": "[2.2.0, )"
         }
       },
       "imports": [
