@@ -16,7 +16,7 @@ namespace BLL.Services.OrderService.Implementations
 
         public void GetDiscount(Order order)
         {
-            var numberOfOrders = order.Orders.Count();
+            var numberOfOrders = order.Count;
 
             if (numberOfOrders <= 0)
             {

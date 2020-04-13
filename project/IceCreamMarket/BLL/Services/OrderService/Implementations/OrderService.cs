@@ -12,9 +12,9 @@ namespace BLL.Services.OrderService.Implementations
     public class OrderService: IOrderService
     {
         private IRepository<Order> DataAccess { get; }
-        private DiscountService DiscountService { get; }
+        private IDiscountService DiscountService { get; }
 
-        public OrderService(IRepository<Order> dataAccess, DiscountService discountService)
+        public OrderService(IRepository<Order> dataAccess, IDiscountService discountService)
         {
             DataAccess = dataAccess ?? throw new ArgumentNullException(nameof(dataAccess));
             DiscountService = discountService ?? throw new ArgumentNullException(nameof(discountService));
