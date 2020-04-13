@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Data.DataSources
@@ -6,6 +7,8 @@ namespace Data.DataSources
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
+        public IEnumerable<SelectedCompositionDataSource> Compositions { get; set; }
     }
 }

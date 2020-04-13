@@ -8,7 +8,8 @@ namespace Data.Context.Configuration
     {
         public void Configure(EntityTypeBuilder<ClientDataSource> builder)
         {
-            builder.HasKey(m => m.Id);
+            builder
+                .HasKey(m => m.Id);
         }
     }
 }

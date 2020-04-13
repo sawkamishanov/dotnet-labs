@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Data.DataSources
 {
@@ -7,6 +8,7 @@ namespace Data.DataSources
     {
         [Key]
         public int Id { get; set; }
-        public IEnumerable<IceCreamDataSource> Orders { get; set; }
+        [Required]
+        public IEnumerable<ActiveOrderDataSource> Orders { get; set; }
     }
 }

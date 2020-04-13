@@ -9,9 +9,8 @@ namespace Data.DataSources
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
-
-        public IEnumerable<ActiveOrders> Orders { get; set; }
-        public IEnumerable<CompositionDataSource> Compositions { get; set; }
+        public IEnumerable<ActiveOrderDataSource> Orders { get; set; }
+        public IEnumerable<SelectedCompositionDataSource> Compositions { get; set; }
         [Required]
         public double Price { get; set; }
         public string Description { get; set; }
