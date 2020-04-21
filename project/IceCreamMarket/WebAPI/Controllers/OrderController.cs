@@ -5,6 +5,7 @@ using BLL.Services.OrderService.Implementations;
 using BLL.Services.OrderService.Contracts;
 using Domain;
 using Domain.Entities;
+using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WebAPI.DTO;
@@ -49,7 +50,7 @@ namespace WebAPI.Controllers
         [Route("{id}")]
         public async Task<OrderDTO> Get(int id)
         {
-            var result = await OrderService.GetOrder(new EntityModel(id));
+            var result = await OrderService.GetOrder(new OrderIdentityModel(id));
 
             return Mapper.Map<OrderDTO>(result);
         }
@@ -74,7 +75,7 @@ namespace WebAPI.Controllers
         [Route("{id}")]
         public async Task Delete(int id)
         {
-            await UpdateOrderService.DeleteOrder(new EntityModel(id));
+            await UpdateOrderService.DeleteOrder(new OrderIdentityModel(id));
         }
     }
 }

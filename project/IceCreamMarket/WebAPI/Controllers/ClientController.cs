@@ -4,6 +4,7 @@ using AutoMapper;
 using BLL.Services.ClientService.Contracts;
 using Domain;
 using Domain.Entities;
+using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.DTO;
 
@@ -36,7 +37,7 @@ namespace WebAPI.Controllers
         [Route("{id}")]
         public async Task<ClientDTO> Get(int id)
         {
-            var result = await GetClientService.GetClient(new EntityModel(id));
+            var result = await GetClientService.GetClient(new ClientIdentityModel(id));
 
             return Mapper.Map<ClientDTO>(result);
         }

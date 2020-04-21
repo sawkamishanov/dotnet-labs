@@ -50,8 +50,8 @@ namespace WebAPI
             services.Add(new ServiceDescriptor(typeof(IGetClientService), typeof(GetClientService), ServiceLifetime.Scoped));
 
             // Data
-            services.Add(new ServiceDescriptor(typeof(IRepository<Order>), typeof(OrderDataAccess), ServiceLifetime.Transient));
-            services.Add(new ServiceDescriptor(typeof(IRepository<Client>), typeof(ClientDataAccess), ServiceLifetime.Transient));
+            services.Add(new ServiceDescriptor(typeof(IOrderDataAccess), typeof(OrderDataAccess), ServiceLifetime.Transient));
+            services.Add(new ServiceDescriptor(typeof(IClientDataAccess), typeof(ClientDataAccess), ServiceLifetime.Transient));
             
             // Use a PostgreSQL database 
             var sqlConnectionString = Configuration.GetConnectionString("DataAccessPostgreSqlProvider");
