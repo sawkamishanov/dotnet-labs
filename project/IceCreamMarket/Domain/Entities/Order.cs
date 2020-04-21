@@ -33,7 +33,7 @@ namespace Domain.Entities
             }
         }
 
-        public int Count => Orders.Count();
+        public int Count => Orders?.Count() ?? 0;
 
         public DateTime Date { get; set; }
     }
