@@ -5,13 +5,13 @@ using AutoMapper;
 using Data.Context;
 using Data.DataSources;
 using Data.Contracts;
-using Domain;
+using Domain.Contracts;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Data.Implementations
 {
-    public class OrderDataAccess: IRepository<Order>
+    public class OrderDataAccess: IOrderDataAccess
     {
         private DatabaseContext Context { get; }
         private IMapper Mapper { get; }
@@ -31,7 +31,7 @@ namespace Data.Implementations
         public async Task Update(Order item)
         {
             var result = 
-                await Context.Orders.FirstOrDefaultAsync(order => order.Id == item.Id);
+                await Context.Orders.FirstOrDefaultAsync(order => order.Id == item.OrderId);
             if (result != null)
             {
                 Context.Orders.Update(result);
@@ -39,10 +39,10 @@ namespace Data.Implementations
             }
         }
 
-        public async Task Delete(IEntityIdentity identity)
+        public async Task Delete(IOrderIdentity identity)
         {
             var result =
-                await Context.Orders.FirstOrDefaultAsync(order => order.Id == identity.Id);
+                await Context.Orders.FirstOrDefaultAsync(order => order.Id == identity.OrderId);
 
             if (result != null)
             {
@@ -51,11 +51,12 @@ namespace Data.Implementations
             }
         }
 
-        public async Task<Order> Get(IEntityIdentity identity)
+        public async Task<Order> Get(IOrderIdentity identity)
         {
-            if (identity.Id.HasValue)
+            if (identity.OrderId.HasValue)
             {
-                return Mapper.Map<Order>(await Context.Orders.FirstOrDefaultAsync(order => order.Id == identity.Id));
+                return Mapper.Map<Order>(await Context.Orders.
+                    FirstOrDefaultAsync(order => order.Id == identity.OrderId));
             }
             else
             {

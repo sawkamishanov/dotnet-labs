@@ -6,12 +6,13 @@ using Data.Context;
 using Data.DataSources;
 using Data.Contracts;
 using Domain;
+using Domain.Contracts;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Data.Implementations
 {
-    public class ClientDataAccess: IRepository<Client>
+    public class ClientDataAccess: IClientDataAccess
     {
         private DatabaseContext Context { get; }
         private IMapper Mapper { get; }
@@ -31,7 +32,7 @@ namespace Data.Implementations
         public async Task Update(Client item)
         {
             var result = 
-                await Context.Clients.FirstOrDefaultAsync(client => client.Id == item.Id);
+                await Context.Clients.FirstOrDefaultAsync(client => client.Id == item.ClientId);
             if (result != null)
             {
                 Context.Clients.Update(result);
@@ -39,10 +40,10 @@ namespace Data.Implementations
             }
         }
 
-        public async Task Delete(IEntityIdentity id)
+        public async Task Delete(IClientIdentity identity)
         {
             var result =
-                await Context.Clients.FirstOrDefaultAsync(client => client.Id == id.Id);
+                await Context.Clients.FirstOrDefaultAsync(client => client.Id == identity.ClientId);
 
             if (result != null)
             {
@@ -51,11 +52,12 @@ namespace Data.Implementations
             }
         }
 
-        public async Task<Client> Get(IEntityIdentity id)
+        public async Task<Client> Get(IClientIdentity identity)
         {
-            if (id.Id.HasValue)
+            if (identity.ClientId.HasValue)
             {
-                return Mapper.Map<Client>(await Context.Clients.FirstOrDefaultAsync(client => client.Id == id.Id));
+                return Mapper.Map<Client>(await Context.Clients.
+                    FirstOrDefaultAsync(client => client.Id == identity.ClientId));
             }
             else
             {
