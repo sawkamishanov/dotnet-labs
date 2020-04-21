@@ -4,17 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using BLL.Services.OrderService.Contracts;
 using Data.Contracts;
-using Domain;
+using Domain.Contracts;
 using Domain.Entities;
 
 namespace BLL.Services.OrderService.Implementations
 {
     public class OrderService: IOrderService
     {
-        private IRepository<Order> DataAccess { get; }
+        private IOrderDataAccess DataAccess { get; }
         private IDiscountService DiscountService { get; }
 
-        public OrderService(IRepository<Order> dataAccess, IDiscountService discountService)
+        public OrderService(IOrderDataAccess dataAccess, IDiscountService discountService)
         {
             DataAccess = dataAccess ?? throw new ArgumentNullException(nameof(dataAccess));
             DiscountService = discountService ?? throw new ArgumentNullException(nameof(discountService));
@@ -32,7 +32,7 @@ namespace BLL.Services.OrderService.Implementations
             await DataAccess.Create(order);
         }
 
-        public async Task<Order> GetOrder(IEntityIdentity identity)
+        public async Task<Order> GetOrder(IOrderIdentity identity)
         {
             if (identity == null)
             {
@@ -43,7 +43,7 @@ namespace BLL.Services.OrderService.Implementations
 
             if (result == null)
             {
-                throw new InvalidOperationException($"Not find by id: {identity.Id}");
+                throw new InvalidOperationException($"Not find by id: {identity.OrderId}");
             }
 
             return result;

@@ -4,20 +4,21 @@ using System.Threading.Tasks;
 using BLL.Services.ClientService.Contracts;
 using Data.Contracts;
 using Domain;
+using Domain.Contracts;
 using Domain.Entities;
 
 namespace BLL.Services.ClientService.Implementations
 {
     public class GetClientService: IGetClientService
     {
-        private IRepository<Client> DataAccess { get; }
+        private IClientDataAccess DataAccess { get; }
 
-        public GetClientService(IRepository<Client> dataAccess)
+        public GetClientService(IClientDataAccess dataAccess)
         {
             DataAccess = dataAccess ?? throw new ArgumentNullException(nameof(dataAccess));
         }
 
-        public async Task<Client> GetClient(IEntityIdentity identity)
+        public async Task<Client> GetClient(IClientIdentity identity)
         {
             if (identity == null)
             {
@@ -28,7 +29,7 @@ namespace BLL.Services.ClientService.Implementations
             
             if (result == null)
             {
-                throw new InvalidOperationException($"Not find by id: {identity.Id}");
+                throw new InvalidOperationException($"Not find by id: {identity.ClientId}");
             }
 
             return result;

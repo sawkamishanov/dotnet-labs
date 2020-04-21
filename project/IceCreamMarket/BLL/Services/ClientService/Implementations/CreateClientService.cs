@@ -8,9 +8,9 @@ namespace BLL.Services.ClientService.Implementations
 {
     public class CreateClientService: ICreateClientService
     {
-        private IRepository<Client> DataAccess { get; }
+        private IClientDataAccess DataAccess { get; }
         
-        public CreateClientService(IRepository<Client> dataAccess)
+        public CreateClientService(IClientDataAccess dataAccess)
         {
             DataAccess = dataAccess ?? throw new ArgumentNullException(nameof(dataAccess));
         }

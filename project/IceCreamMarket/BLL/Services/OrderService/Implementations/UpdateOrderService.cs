@@ -2,17 +2,17 @@
 using System.Threading.Tasks;
 using BLL.Services.OrderService.Contracts;
 using Data.Contracts;
-using Domain;
+using Domain.Contracts;
 using Domain.Entities;
 
 namespace BLL.Services.OrderService.Implementations
 {
     public class UpdateOrderService: IUpdateOrderService
     {
-        private IRepository<Order> DataAccess { get; }
+        private IOrderDataAccess DataAccess { get; }
         private IOrderService OrderService { get; }
         
-        public UpdateOrderService(IRepository<Order> dataAccess, IOrderService orderService)
+        public UpdateOrderService(IOrderDataAccess dataAccess, IOrderService orderService)
         {
             DataAccess = dataAccess ?? throw new ArgumentNullException(nameof(dataAccess));
             OrderService = orderService ?? throw new ArgumentNullException(nameof(dataAccess));
@@ -28,7 +28,7 @@ namespace BLL.Services.OrderService.Implementations
             await DataAccess.Update(order);
         }
 
-        public async Task DeleteOrder(IEntityIdentity identity)
+        public async Task DeleteOrder(IOrderIdentity identity)
         {
             if (identity == null)
             {
