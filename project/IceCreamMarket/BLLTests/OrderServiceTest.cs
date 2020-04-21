@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using BLL.Services.OrderService.Contracts;
 using BLL.Services.OrderService.Implementations;
 using Data.Contracts;
-using Domain;
+using Domain.Contracts;
 using Domain.Entities;
 using FluentAssertions;
 using Moq;
@@ -18,10 +18,10 @@ namespace BLLTests
         public async Task GetSuccess()
         {
             // Arrange
-            var orderIdentityMock = new Mock<IEntityIdentity>();
+            var orderIdentityMock = new Mock<IOrderIdentity>();
             var order = new Order();
             var discountService = new Mock<IDiscountService>();
-            var orderDataAccessMock = new Mock<IRepository<Order>>();
+            var orderDataAccessMock = new Mock<IOrderDataAccess>();
 
             orderDataAccessMock
                 .Setup(repository => repository.Get(orderIdentityMock.Object))
@@ -41,8 +41,8 @@ namespace BLLTests
         public async Task GetFailure()
         {
             // Arrange
-            var orderIdentityMock = new Mock<IEntityIdentity>();
-            var orderDataAccessMock = new Mock<IRepository<Order>>();
+            var orderIdentityMock = new Mock<IOrderIdentity>();
+            var orderDataAccessMock = new Mock<IOrderDataAccess>();
             var discountService = new Mock<IDiscountService>();
 
             orderDataAccessMock
