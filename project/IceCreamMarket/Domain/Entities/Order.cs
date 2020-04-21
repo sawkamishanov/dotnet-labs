@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Domain.Contracts;
 
 namespace Domain.Entities
 {
-    public class Order: IEntityIdentity
+    public class Order: IOrderIdentity
     {
-        public int? Id { get; set; }
+        public int? OrderId { get; set; }
         
         public IEnumerable<IceCream> Orders { get; set; }
 
