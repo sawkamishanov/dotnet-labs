@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Data.Context;
 using Data.DataSources;
-using Data.Repositories;
+using Data.Contracts;
 using Domain;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;

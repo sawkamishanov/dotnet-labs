@@ -2,10 +2,10 @@ using AutoMapper;
 using BLL.Services.ClientService.Contracts;
 using BLL.Services.ClientService.Implementations;
 using BLL.Services.OrderService.Implementations;
-using BLL.Services.OrderService.Repositories;
+using BLL.Services.OrderService.Contracts;
 using Data.Context;
 using Data.Implementations;
-using Data.Repositories;
+using Data.Contracts;
 using Domain.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -46,7 +46,7 @@ namespace WebAPI
             services.Add(new ServiceDescriptor(typeof(IDiscountService), typeof(DiscountService), ServiceLifetime.Scoped));
             
             // BLL Client
-            services.Add(new ServiceDescriptor(typeof(IDiscountService), typeof(CreateClientService), ServiceLifetime.Scoped));
+            services.Add(new ServiceDescriptor(typeof(ICreateClientService), typeof(CreateClientService), ServiceLifetime.Scoped));
             services.Add(new ServiceDescriptor(typeof(IGetClientService), typeof(GetClientService), ServiceLifetime.Scoped));
 
             // Data

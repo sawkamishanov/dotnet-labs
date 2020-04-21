@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BLL.Services.OrderService.Repositories;
-using Data.Repositories;
+using BLL.Services.OrderService.Contracts;
+using Data.Contracts;
 using Domain;
 using Domain.Entities;
 

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Domain;
 
-namespace Data.Repositories
+namespace Data.Contracts
 {
     public interface IRepository<T> where T : class
     {

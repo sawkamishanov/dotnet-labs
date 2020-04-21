@@ -111,6 +111,9 @@
       </e>
       <e p="Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Contracts" t="Include">
+          <e p="IEntityIdentity.cs" t="Include" />
+        </e>
         <e p="Domain.csproj" t="IncludeRecursive" />
         <e p="Entities" t="Include">
           <e p="Client.cs" t="Include" />
@@ -120,7 +123,7 @@
           <e p="Order.cs" t="Include" />
         </e>
         <e p="EntityModel.cs" t="Include" />
-        <e p="IEntityIdentity.cs" t="Include" />
+        <e p="Models" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

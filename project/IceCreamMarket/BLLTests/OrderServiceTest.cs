@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
+using BLL.Services.OrderService.Contracts;
 using BLL.Services.OrderService.Implementations;
-using BLL.Services.OrderService.Repositories;
-using Data.Repositories;
+using Data.Contracts;
 using Domain;
 using Domain.Entities;
 using FluentAssertions;

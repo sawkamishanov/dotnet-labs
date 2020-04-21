@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using BLL.Services.OrderService.Repositories;
+using BLL.Services.OrderService.Contracts;
 using Data.Implementations;
-using Data.Repositories;
+using Data.Contracts;
 using Domain.Entities;
 
 namespace BLL.Services.OrderService.Implementations

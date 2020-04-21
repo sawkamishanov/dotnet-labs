@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Domain;
 using Domain.Entities;
 
-namespace BLL.Services.OrderService.Repositories
+namespace BLL.Services.OrderService.Contracts
 {
     public interface IOrderService
     {

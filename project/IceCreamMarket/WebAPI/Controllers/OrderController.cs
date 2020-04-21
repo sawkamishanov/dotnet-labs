@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using BLL.Services.OrderService.Implementations;
-using BLL.Services.OrderService.Repositories;
+using BLL.Services.OrderService.Contracts;
 using Domain;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;

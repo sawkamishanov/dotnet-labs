@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using BLL.Services.ClientService.Contracts;
-using Data.Repositories;
+using Data.Contracts;
 using Domain;
 using Domain.Entities;
 
