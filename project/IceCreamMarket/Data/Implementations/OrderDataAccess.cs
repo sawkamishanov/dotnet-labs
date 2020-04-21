@@ -22,13 +22,15 @@ namespace Data.Implementations
             Mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task Create(Order item)
+        public async Task<Order> CreateOrder(Order item)
         {
-            await Context.AddAsync(Mapper.Map<OrderDataSource>(item));
+            var result = await Context.AddAsync(Mapper.Map<OrderDataSource>(item));
             await Context.SaveChangesAsync();
+
+            return Mapper.Map<Order>(result.Entity);
         }
 
-        public async Task Update(Order item)
+        public async Task<bool> UpdateOrder(Order item)
         {
             var result = 
                 await Context.Orders.FirstOrDefaultAsync(order => order.Id == item.OrderId);
@@ -36,10 +38,14 @@ namespace Data.Implementations
             {
                 Context.Orders.Update(result);
                 await Context.SaveChangesAsync();
+
+                return true;
             }
+
+            return false;
         }
 
-        public async Task Delete(IOrderIdentity identity)
+        public async Task<bool> DeleteOrder(IOrderIdentity identity)
         {
             var result =
                 await Context.Orders.FirstOrDefaultAsync(order => order.Id == identity.OrderId);
@@ -48,7 +54,11 @@ namespace Data.Implementations
             {
                 Context.Orders.Remove(result);
                 await Context.SaveChangesAsync();
+
+                return true;
             }
+
+            return false;
         }
 
         public async Task<Order> Get(IOrderIdentity identity)

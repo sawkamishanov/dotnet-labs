@@ -7,9 +7,9 @@ namespace Data.Contracts
 {
     public interface IClientDataAccess
     {
-        Task Create(Client client);
-        Task Update(Client client);
-        Task Delete(IClientIdentity identity);
+        Task<Client> CreateClient(Client client);
+        Task<bool> UpdateClient(Client client);
+        Task<bool> DeleteClient(IClientIdentity identity);
         Task<Client> Get(IClientIdentity identity);
         Task<IEnumerable<Client>> Get();
     }

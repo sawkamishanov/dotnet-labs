@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\Data.csproj",
+    "projectUniqueName": "/home/aamishanov/Study/DotNet/dotnet-labs/project/IceCreamMarket/Data/Data.csproj",
     "projectName": "Data",
-    "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\Data.csproj",
-    "outputPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Data\\obj\\",
+    "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/IceCreamMarket/Data/Data.csproj",
+    "outputPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/IceCreamMarket/Data/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj": {
-            "projectPath": "D:\\Projects\\Rider\\dotnet-labs\\project\\IceCreamMarket\\Domain\\Domain.csproj"
+          "/home/aamishanov/Study/DotNet/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj": {
+            "projectPath": "/home/aamishanov/Study/DotNet/dotnet-labs/project/IceCreamMarket/Domain/Domain.csproj"
           }
         }
       }
@@ -74,7 +74,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
     }
   }
 }

@@ -23,13 +23,15 @@ namespace Data.Implementations
             Mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
-        public async Task Create(Client item)
+        public async Task<Client> CreateClient(Client item)
         {
-            await Context.AddAsync(Mapper.Map<ClientDataSource>(item));
+            var result = await Context.AddAsync(Mapper.Map<ClientDataSource>(item));
             await Context.SaveChangesAsync();
+
+            return Mapper.Map<Client>(result.Entity);
         }
 
-        public async Task Update(Client item)
+        public async Task<bool> UpdateClient(Client item)
         {
             var result = 
                 await Context.Clients.FirstOrDefaultAsync(client => client.Id == item.ClientId);
@@ -37,10 +39,14 @@ namespace Data.Implementations
             {
                 Context.Clients.Update(result);
                 await Context.SaveChangesAsync();
+
+                return true;
             }
+
+            return false;
         }
 
-        public async Task Delete(IClientIdentity identity)
+        public async Task<bool> DeleteClient(IClientIdentity identity)
         {
             var result =
                 await Context.Clients.FirstOrDefaultAsync(client => client.Id == identity.ClientId);
@@ -49,7 +55,11 @@ namespace Data.Implementations
             {
                 Context.Clients.Remove(result);
                 await Context.SaveChangesAsync();
+
+                return true;
             }
+
+            return false;
         }
 
         public async Task<Client> Get(IClientIdentity identity)

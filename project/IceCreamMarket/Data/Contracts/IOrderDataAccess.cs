@@ -7,9 +7,9 @@ namespace Data.Contracts
 {
     public interface IOrderDataAccess
     {
-        Task Create(Order order);
-        Task Update(Order order);
-        Task Delete(IOrderIdentity identity);
+        Task<Order> CreateOrder(Order order);
+        Task<bool> UpdateOrder(Order order);
+        Task<bool> DeleteOrder(IOrderIdentity identity);
         Task<Order> Get(IOrderIdentity identity);
         Task<IEnumerable<Order>> Get();
     }
