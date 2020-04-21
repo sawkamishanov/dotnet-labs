@@ -1,10 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
+using BLL.Services.ClientService.Contracts;
 using BLL.Services.ClientService.Implementations;
-using BLL.Services.ClientService.Repositories;
 using BLL.Services.OrderService.Implementations;
 using BLL.Services.OrderService.Repositories;
 using Data.Context;
@@ -13,14 +9,11 @@ using Data.Repositories;
 using Domain.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
+
 
 namespace WebAPI
 {
@@ -53,7 +46,7 @@ namespace WebAPI
             services.Add(new ServiceDescriptor(typeof(IDiscountService), typeof(DiscountService), ServiceLifetime.Scoped));
             
             // BLL Client
-            services.Add(new ServiceDescriptor(typeof(ICreateClientService), typeof(CreateClientService), ServiceLifetime.Scoped));
+            services.Add(new ServiceDescriptor(typeof(IDiscountService), typeof(CreateClientService), ServiceLifetime.Scoped));
             services.Add(new ServiceDescriptor(typeof(IGetClientService), typeof(GetClientService), ServiceLifetime.Scoped));
 
             // Data

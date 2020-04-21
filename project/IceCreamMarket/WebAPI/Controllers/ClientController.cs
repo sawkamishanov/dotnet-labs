@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
-using BLL.Services.ClientService.Repositories;
+using BLL.Services.ClientService.Contracts;
 using Domain;
 using Domain.Entities;
 using Microsoft.AspNetCore.Mvc;

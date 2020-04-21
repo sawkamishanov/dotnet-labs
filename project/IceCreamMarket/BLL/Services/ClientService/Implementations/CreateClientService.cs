@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using BLL.Services.ClientService.Repositories;
+using BLL.Services.ClientService.Contracts;
 using Data.Repositories;
 using Domain.Entities;
 
