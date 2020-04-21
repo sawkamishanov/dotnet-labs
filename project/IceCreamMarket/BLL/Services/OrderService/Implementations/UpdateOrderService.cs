@@ -10,32 +10,30 @@ namespace BLL.Services.OrderService.Implementations
     public class UpdateOrderService: IUpdateOrderService
     {
         private IOrderDataAccess DataAccess { get; }
-        private IOrderService OrderService { get; }
         
-        public UpdateOrderService(IOrderDataAccess dataAccess, IOrderService orderService)
+        public UpdateOrderService(IOrderDataAccess dataAccess)
         {
             DataAccess = dataAccess ?? throw new ArgumentNullException(nameof(dataAccess));
-            OrderService = orderService ?? throw new ArgumentNullException(nameof(dataAccess));
         }
 
-        public async Task UpdateOrder(Order order)
+        public async Task<bool> UpdateOrder(Order order)
         {
             if (order == null)
             {
                 throw new ArgumentNullException(nameof(order));
             }
             
-            await DataAccess.Update(order);
+            return await DataAccess.UpdateOrder(order);
         }
 
-        public async Task DeleteOrder(IOrderIdentity identity)
+        public async Task<bool> DeleteOrder(IOrderIdentity identity)
         {
             if (identity == null)
             {
                 throw new ArgumentNullException(nameof(identity));
             }
             
-            await DataAccess.Delete(identity);
+            return await DataAccess.DeleteOrder(identity);
         }
     }
 }

@@ -15,14 +15,14 @@ namespace BLL.Services.ClientService.Implementations
             DataAccess = dataAccess ?? throw new ArgumentNullException(nameof(dataAccess));
         }
         
-        public async Task CreateClient(Client client)
+        public async Task<Client> CreateClient(Client client)
         {
             if (client == null)
             {
                 throw new ArgumentNullException(nameof(client));
             }
             
-            await DataAccess.Create(client);
+            return await DataAccess.CreateClient(client);
         }
     }
 }

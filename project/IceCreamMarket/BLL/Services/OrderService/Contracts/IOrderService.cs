@@ -8,7 +8,7 @@ namespace BLL.Services.OrderService.Contracts
 {
     public interface IOrderService
     {
-        Task MakeOrder(Order order);
+        Task<Order> MakeOrder(Order order);
         Task<Order> GetOrder(IOrderIdentity identity);
         Task<IEnumerable<Order>> GetOrder();
     }

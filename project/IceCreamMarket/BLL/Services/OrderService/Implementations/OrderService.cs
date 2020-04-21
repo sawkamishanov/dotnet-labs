@@ -20,7 +20,7 @@ namespace BLL.Services.OrderService.Implementations
             DiscountService = discountService ?? throw new ArgumentNullException(nameof(discountService));
         }
 
-        public async Task MakeOrder(Order order)
+        public async Task<Order> MakeOrder(Order order)
         {
             if (order == null)
             {
@@ -29,7 +29,7 @@ namespace BLL.Services.OrderService.Implementations
             
             DiscountService.GetDiscount(order);
             
-            await DataAccess.Create(order);
+            return await DataAccess.CreateOrder(order);
         }
 
         public async Task<Order> GetOrder(IOrderIdentity identity)

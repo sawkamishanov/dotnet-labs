@@ -6,7 +6,7 @@ namespace BLL.Services.OrderService.Contracts
 {
     public interface IUpdateOrderService
     {
-        Task UpdateOrder(Order order);
-        Task DeleteOrder(IOrderIdentity identity);
+        Task<bool> UpdateOrder(Order order);
+        Task<bool> DeleteOrder(IOrderIdentity identity);
     }
 }

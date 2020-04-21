@@ -18,9 +18,14 @@ namespace BLL.Services.OrderService.Implementations
         {
             var numberOfOrders = order.Count;
 
-            if (numberOfOrders <= 0)
+            if (numberOfOrders < 0)
             {
                 throw new ArgumentOutOfRangeException();
+            }
+
+            if (numberOfOrders == 0)
+            {
+                return;
             }
 
             if (numberOfOrders >= SMALL_DISCOUNT && numberOfOrders < AV_DISCOUNT)
